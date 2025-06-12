@@ -1,0 +1,316 @@
+/* Shriftlarni Google Fonts'dan import qilish */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Tinos&display=swap");
+
+/* === UMUMIY SAHIFA USLUBLARI === */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 20px 0;
+}
+
+.page-container {
+  max-width: 1400px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.breadcrumb {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+h1.main-title {
+  font-size: 2.5em;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.content-wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+/* === CHAP USTUN USLUBLARI === */
+.info-column {
+  flex: 1; /* Chap ustun kichikroq joy egallaydi */
+  min-width: 350px;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.completion-box {
+  background-color: #e9f5ff;
+  border: none;
+}
+
+.completion-box h2 {
+  margin: 0;
+  font-size: 1.4em;
+  color: #2a2a2a;
+}
+
+.completion-box .details p {
+  margin: 5px 0;
+  font-size: 0.95em;
+}
+
+.completion-box .verification {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 15px;
+}
+
+.course-provider-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.course-provider-info .provider-logo {
+  width: 70px;
+  height: auto;
+}
+
+.course-provider-info .info-text h3 {
+  margin: 0 0 5px 0;
+  font-size: 1.2em;
+}
+
+.course-provider-info .info-text p {
+  margin: 0;
+  color: #555;
+}
+
+.card h4 {
+  font-size: 1em;
+  font-weight: bold;
+  color: #555;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.learning-outcomes ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.learning-outcomes li {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.learning-outcomes .checkmark {
+  color: #28a745;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+.skills .skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills .tag {
+  background-color: #e9ecef;
+  padding: 8px 12px;
+  border-radius: 16px;
+  font-size: 0.9em;
+}
+
+/* === O'NG USTUN (SERTIFIKATNING O'ZI) USLUBLARI === */
+.certificate-column {
+  flex: 2; /* O'ng ustun ko'proq joy egallaydi */
+}
+
+/* Sertifikatning o'zini stillari (ikkinchi so'rovdan olingan va moslashtirilgan) */
+.certificate-container {
+  display: flex;
+  width: 100%; /* Ota-elementga moslashadi */
+  min-height: 700px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  border: 1px solid #ccc;
+}
+
+.left-panel {
+  flex: 0 0 220px;
+  background-color: #2c3e50;
+  color: white;
+  padding: 30px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coursera-seal {
+  width: 130px;
+  height: 130px;
+  margin-bottom: 30px;
+}
+
+.courses-banner {
+  background-color: #34495e;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  font-weight: 500;
+  font-size: 1.1em;
+  margin-bottom: 30px;
+}
+
+.course-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.course-list li {
+  font-size: 0.85em;
+  line-height: 1.5;
+  margin-bottom: 12px;
+  padding-left: 10px;
+}
+
+.right-panel {
+  flex-grow: 1;
+  padding: 40px 50px;
+  position: relative;
+  background-image: url("https://www.transparenttextures.com/patterns/wavecut.png");
+}
+
+.google-logo {
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+.content-body {
+  margin-left: 10px;
+}
+.date {
+  font-size: 0.9em;
+  color: #555;
+  margin-bottom: 20px;
+}
+.recipient-name {
+  font-family: "Tinos", serif;
+  font-size: 2.5em;
+  margin: 0;
+  color: #222;
+}
+.completion-text {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+.certificate-title {
+  font-size: 2.8em;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #000;
+  margin: 0;
+}
+.description {
+  margin-top: 20px;
+  font-size: 0.8em;
+  line-height: 1.6;
+  color: #444;
+  max-width: 90%;
+}
+
+.signature-area {
+  position: absolute;
+  top: 100px;
+  right: 50px;
+  text-align: center;
+}
+.signature-img {
+  width: 100px;
+}
+.signature-area p {
+  margin: 2px 0;
+  font-size: 0.8em;
+  color: #333;
+  line-height: 1.3;
+}
+
+.certificate-footer {
+  position: absolute;
+  bottom: 40px;
+  left: 50px;
+  right: 50px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.7em;
+  color: #666;
+}
+.disclaimer {
+  flex-basis: 60%;
+}
+.verification {
+  flex-basis: 35%;
+  text-align: left;
+}
+.verification a {
+  color: #1a0dab;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+/* Media query - ekran kichrayganda ustunlarni vertikal qilish */
+@media (max-width: 1200px) {
+  .content-wrapper {
+    flex-direction: column;
+  }
+}
+.right-column .certificate-image {
+  width: 100%;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.action-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.action-buttons button {
+  flex: 1;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #0056d2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.action-buttons .share-btn {
+  background-color: #0056d2;
+  color: white;
+}
+
+.action-buttons .download-btn {
+  background-color: white;
+  color: #0056d2;
+}
